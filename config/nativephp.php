@@ -112,7 +112,7 @@ return [
                 'owner' => env('GITHUB_OWNER', 'arbazargani'),
                 'token' => env('GITHUB_TOKEN', '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'),
                 'vPrefixedTagName' => env('GITHUB_V_PREFIXED_TAG_NAME', true),
-                'private' => env('GITHUB_PRIVATE', true),
+                'private' => env('GITHUB_PRIVATE', false),
                 'channel' => env('GITHUB_CHANNEL', 'latest'),
                 'releaseType' => env('GITHUB_RELEASE_TYPE', 'draft'),
             ],
